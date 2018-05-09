@@ -20,3 +20,16 @@ fun max(x: Int, y: Int) {
  * Kotlin 简化版的  if else    if(x>y) x esle y
  */
 fun max2(x: Int, y: Int) = System.out.println("最大值是 = ${if (x > y) x else y}")
+
+/**
+ *  Kotlin 中  when 是表达式，可以取代Java中 的 switch when 的每个分支的最后个行为当前分支的值
+ */
+fun curruntPiont(grade: Char) = when (grade) {
+    'A' -> "GOOD"
+    'B', 'C' -> {
+        println("Test when")
+        "OK"
+    }
+    'D' -> "BAD"
+    else -> "UN_KNOW"
+}

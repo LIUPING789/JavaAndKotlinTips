@@ -3,6 +3,7 @@ package com.knight.mykotlinfirst
 import com.knight.mykotlinfirst.samples1.testString1
 import com.knight.mykotlinfirst.samples1.testString2
 import com.knight.mykotlinfirst.samples1.testString3
+import com.knight.mykotlinfirst.samples2.curruntPiont
 import com.knight.mykotlinfirst.samples2.max
 import com.knight.mykotlinfirst.samples2.max2
 import org.junit.Assert.assertEquals
@@ -30,5 +31,6 @@ class ExampleUnitTest {
     fun testKotlinTip2() {
         max(45, 9)
         max2(236, 756)
+        curruntPiont('B')
     }
 }
