@@ -28,8 +28,8 @@ public class JavaExample1 {
     }
 
 
-    public static void main(String agrs[]) {
-        testString1();
-        testString2();
-    }
+//    public static void main(String agrs[]) {
+//        testString1();
+//        testString2();
+//    }
 }
