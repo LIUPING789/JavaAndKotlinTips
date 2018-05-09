@@ -7,6 +7,9 @@ import com.knight.mykotlinfirst.samples2.curruntPiont
 import com.knight.mykotlinfirst.samples2.curruntPiont2
 import com.knight.mykotlinfirst.samples2.max
 import com.knight.mykotlinfirst.samples2.max2
+import com.knight.mykotlinfirst.samples3.printlnList
+import com.knight.mykotlinfirst.samples3.printlnList2
+import com.knight.mykotlinfirst.samples3.printlnList3
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -34,5 +37,12 @@ class ExampleUnitTest {
         max2(236, 756)
         curruntPiont('B')
         curruntPiont2(876)
+    }
+
+    @Test
+    fun testKotlinTip3() {
+        printlnList()
+        printlnList2()
+        printlnList3()
     }
 }
