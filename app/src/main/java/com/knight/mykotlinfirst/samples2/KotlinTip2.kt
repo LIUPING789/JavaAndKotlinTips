@@ -33,3 +33,13 @@ fun curruntPiont(grade: Char) = when (grade) {
     'D' -> "BAD"
     else -> "UN_KNOW"
 }
+
+/**
+ *  kotlin中，when是表达式，可以取代java的if/else，when的每个分支的最后一行为当前分支的值
+ */
+fun curruntPiont2(grade: Int) = System.out.println("选值的值是 = ${when { grade > 90 -> "GOOD"
+    grade > 60 -> "OK"
+    grade.hashCode() == 0x100 -> "STH"
+    else -> "UN_KNOW"
+    }
+}")
