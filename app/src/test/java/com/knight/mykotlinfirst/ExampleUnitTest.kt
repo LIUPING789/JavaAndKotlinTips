@@ -11,6 +11,7 @@ import com.knight.mykotlinfirst.samples3.printlnList
 import com.knight.mykotlinfirst.samples3.printlnList2
 import com.knight.mykotlinfirst.samples3.printlnList3
 import com.knight.mykotlinfirst.samples4.printlnList4
+import com.knight.mykotlinfirst.samples4.testAsMembers
 import com.knight.mykotlinfirst.samples4.testFunExtension
 import com.knight.mykotlinfirst.samples4.texstExtension
 import org.junit.Assert.assertEquals
@@ -53,5 +54,9 @@ class ExampleUnitTest {
         testFunExtension()
         printlnList4()
         texstExtension()
+    }
+    @Test
+    fun testExtenstionsAsMembers(){
+        testAsMembers()
     }
 }
