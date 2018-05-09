@@ -2,6 +2,7 @@ package com.knight.mykotlinfirst
 
 import com.knight.mykotlinfirst.samples1.testString1
 import com.knight.mykotlinfirst.samples1.testString2
+import com.knight.mykotlinfirst.samples1.testString3
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -19,5 +20,6 @@ class ExampleUnitTest {
   fun testKotlinTip1(){
         testString1()
         testString2()
+        testString3()
   }
 }

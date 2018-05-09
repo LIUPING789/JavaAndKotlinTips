@@ -36,3 +36,11 @@ fun testString2() {
     println("First conetnt is ${string[0]}")
     println("First content  is ${string[1]}")
 }
+
+/**
+ * Kotlin中 美元符号$是特殊的字符，在字符中不能直接显示 ，必须经过转义：   case 1： 是用反斜杠， case 2: 是用 ${'$'}
+ */
+fun testString3() {
+    println("First content is \$strings")
+    println("First content is ${'$'}string")
+}
