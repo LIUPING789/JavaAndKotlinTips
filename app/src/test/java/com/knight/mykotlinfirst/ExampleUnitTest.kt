@@ -11,6 +11,7 @@ import com.knight.mykotlinfirst.samples3.printlnList
 import com.knight.mykotlinfirst.samples3.printlnList2
 import com.knight.mykotlinfirst.samples3.printlnList3
 import com.knight.mykotlinfirst.samples4.*
+import com.knight.mykotlinfirst.samples5.testLateinit
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -58,8 +59,14 @@ class ExampleUnitTest {
     fun testExtenstionsAsMembers() {
         testAsMembers()
     }
+
     @Test
-    fun testStaticallyExtension(){
+    fun testStaticallyExtension() {
         testStatically()
+    }
+
+    @Test
+    fun testKotlinTip5() {
+        testLateinit()
     }
 }
