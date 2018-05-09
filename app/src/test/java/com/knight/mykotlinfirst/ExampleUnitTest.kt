@@ -10,6 +10,9 @@ import com.knight.mykotlinfirst.samples2.max2
 import com.knight.mykotlinfirst.samples3.printlnList
 import com.knight.mykotlinfirst.samples3.printlnList2
 import com.knight.mykotlinfirst.samples3.printlnList3
+import com.knight.mykotlinfirst.samples4.printlnList4
+import com.knight.mykotlinfirst.samples4.testFunExtension
+import com.knight.mykotlinfirst.samples4.texstExtension
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -44,5 +47,11 @@ class ExampleUnitTest {
         printlnList()
         printlnList2()
         printlnList3()
+    }
+    @Test
+    fun testKotlinTips4(){
+        testFunExtension()
+        printlnList4()
+        texstExtension()
     }
 }
