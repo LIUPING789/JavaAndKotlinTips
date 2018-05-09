@@ -55,6 +55,11 @@ public class JavaExample2 {
         }
     }
 
+    /**
+     * Java  中的  if else
+     * @param point
+     * @return
+     */
     public static String getPoint2(Integer point) {
         if (point > 100) {
             return "GOOD";
