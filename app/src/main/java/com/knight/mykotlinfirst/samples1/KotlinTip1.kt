@@ -8,23 +8,31 @@ package com.knight.mykotlinfirst.samples1
  * update: 2018/5/8 on 16:01
  * version: v 1.0
  */
-class KotlinTip1 {
-    fun testString1() {
+fun testString1() {
 
-        val str1 = "abc"
+    val str1 = "abc"
 
-        val str2 = """line1\n
+    val str2 = """line1\n
                 line2
                 line3
                 """
-        val js = """
+    val js = """
     function myFunction()
     {
     document.getElementById("demo").innerHTML="My First JavaScript Function";
     }
     """.trimIndent()
-        println(str1)
-        println(str2)
-        println(js)
-    }
+    println(str1)
+    println(str2)
+    println(js)
+}
+
+/**
+ * kotlin 字符模版， 可以用$符号拼接变量和表达式
+ */
+fun testString2() {
+    val string = arrayListOf("上海", "北京", "深圳")
+    println("First content is $string")
+    println("First conetnt is ${string[0]}")
+    println("First content  is ${string[1]}")
 }
