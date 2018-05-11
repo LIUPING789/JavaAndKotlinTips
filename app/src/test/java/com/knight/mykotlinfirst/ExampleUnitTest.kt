@@ -9,6 +9,7 @@ import com.knight.mykotlinfirst.samples11.alphabet3
 import com.knight.mykotlinfirst.samples12.alphabet5
 import com.knight.mykotlinfirst.samples13.testNullType
 import com.knight.mykotlinfirst.samples14.testOperator
+import com.knight.mykotlinfirst.samples15.test05
 import com.knight.mykotlinfirst.samples2.curruntPiont
 import com.knight.mykotlinfirst.samples2.curruntPiont2
 import com.knight.mykotlinfirst.samples2.max
@@ -98,5 +99,10 @@ class ExampleUnitTest {
     @Test
     fun testKotlinTip14() {
         testOperator()
+    }
+
+    @Test
+    fun testKotlinTip15() {
+        test05()
     }
 }
