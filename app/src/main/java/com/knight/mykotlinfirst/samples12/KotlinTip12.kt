@@ -27,7 +27,7 @@ fun alphabet5() = StringBuilder().apply {
 
 
 /**
- *用apply语句简化类的初始人，在类实例的时候，就可以通过apply把需要初始化的步骤全部实现，非常简洁
+ *用apply语句简化类的初始类，在类实例的时候，就可以通过apply把需要初始化的步骤全部实现，非常简洁
  */
 fun testApply(context: Context) {
     var imageView = ImageView(context).apply {
