@@ -6,6 +6,7 @@ import com.knight.mykotlinfirst.samples1.testString3
 import com.knight.mykotlinfirst.samples11.alphabet
 import com.knight.mykotlinfirst.samples11.alphabet2
 import com.knight.mykotlinfirst.samples11.alphabet3
+import com.knight.mykotlinfirst.samples12.alphabet5
 import com.knight.mykotlinfirst.samples2.curruntPiont
 import com.knight.mykotlinfirst.samples2.curruntPiont2
 import com.knight.mykotlinfirst.samples2.max
@@ -79,5 +80,10 @@ class ExampleUnitTest {
         println(alphabet2())
         println(alphabet3())
         println(alphabet())
+    }
+    @Test
+    fun testKoltinTip12(){
+        println(alphabet5())
+//        testApply()
     }
 }
