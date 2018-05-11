@@ -3,6 +3,9 @@ package com.knight.mykotlinfirst
 import com.knight.mykotlinfirst.samples1.testString1
 import com.knight.mykotlinfirst.samples1.testString2
 import com.knight.mykotlinfirst.samples1.testString3
+import com.knight.mykotlinfirst.samples11.alphabet
+import com.knight.mykotlinfirst.samples11.alphabet2
+import com.knight.mykotlinfirst.samples11.alphabet3
 import com.knight.mykotlinfirst.samples2.curruntPiont
 import com.knight.mykotlinfirst.samples2.curruntPiont2
 import com.knight.mykotlinfirst.samples2.max
@@ -68,5 +71,13 @@ class ExampleUnitTest {
     @Test
     fun testKotlinTip5() {
         testLateinit()
+    }
+
+    @Test
+    fun testKotlinTip11() {
+        println(alphabet())
+        println(alphabet2())
+        println(alphabet3())
+        println(alphabet())
     }
 }
